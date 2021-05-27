@@ -14,7 +14,7 @@
 		bgImg = loadImage("starNight.png");
 		//load animation for fairy here
 		fairimg=loadAnimation("fairyImage1.png","fairyImage2.png");
-	fairysound=loadSound("sound/joyMusic.mp3")
+	//fairysound=loadSound("sound/joyMusic.mp3")
 
 	}
 
@@ -22,7 +22,7 @@
 		createCanvas(800, 750);
 
 		//write code to play fairyVoice sound
-        fairysound.play();
+        //fairysound.play();
 		//create fairy sprite and add animation for fairy
 		fairy = createSprite(130,520);
 		fairy.addAnimation("flyingimg",fairyimg);
